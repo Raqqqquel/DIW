@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5 botones box sizing</title>
+</head>
+<style>
+    html {
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    }
+
+.mi_caja{
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(255, 0, 195);
+    /* Al poner display block el span y el a se 
+    comportan igual que el div (como un bloque) 
+     display: block; */
+
+    /* Al poner display inline-block todo está en la misma línea
+       display: inline-block; */
+}
+
+
+</style>
+<body>
+
+    hola mundo <div class="mi_caja">div</div> con display:block
+    <br></br>
+    hola mundo <a class="mi_caja" style="display: inline">a</a> con display:inline
+    <br></br>
+    hola mundo <span class="mi_caja" style="display: inline-block">span</span> con display inline-block
+
+</body>
+</html>

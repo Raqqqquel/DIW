@@ -1,0 +1,41 @@
+.c-panel{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+
+    background-color: lightgrey;
+
+    &__heading{
+        font-size: 20px;
+        background-color: lightgray;
+        margin: 5px;
+    }
+
+    &__body{
+        font-size: 20px;
+        background-color: white;
+        margin: 2px;
+    }
+
+    &__footer{
+        font-size: 20px;
+        background-color: lightgray;
+    }
+
+
+}
+
+.c-panel-dangerous{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+
+    background-color: red;
+}
+
+.g--background-color{
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,19 @@
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    display: block;
+
+    padding: 5px;
+
+    border: 2px solid;
+}

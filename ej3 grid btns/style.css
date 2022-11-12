@@ -1,0 +1,63 @@
+
+.contenedor{
+
+    display: grid;
+    grid-template-areas: "btn1 . . btn9"
+                         ". btn2 . ."
+                         "btn4 . btn3 ."
+                         ". btn5 . ."
+                         ". . btn6 ."
+                         "btn8 . . btn7";
+
+}
+
+.container{ margin:  auto;}
+
+.btn{
+    display: inline-block;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 4px;
+
+    /*Truquitos*/
+
+    cursor: pointer;
+    text-decoration: none;
+    outline: none !important;
+    opacity: 1;
+
+    color: #eeeeee;
+
+}
+
+
+.btn1{ grid-area: btn1;}
+.btn2{ grid-area: btn2;}
+.btn3{ grid-area: btn3;}
+.btn4{ grid-area: btn4;}
+.btn5{ grid-area: btn5;}
+.btn6{ grid-area: btn6;}
+.btn7{ grid-area: btn7;}
+.btn8{ grid-area: btn8;}
+.btn9{ grid-area: btn9;}
+
+
+.padding-8{ padding:8px;}
+
+.font-black{ color: black;}
+.font-white{ color: white;}
+.font-red{ color: #c53030;}
+.font-blue{color: #0056b8;}
+.font-orange{color: #ed8936;}
+
+
+.fill-blue{background-color:#0056b8;}
+.fill-red{background-color:#c53030;}
+.fill-orange{background-color:#ed8936;}
+.fill-grey{background-color: #eeeeee;}
+
+
+.border-red{ border: #c53030 2px solid;}
+.border-blue{ border: #0056b8 2px solid;}
+.border-orange{ border: #ed8936 2px solid;}
+

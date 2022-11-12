@@ -1,0 +1,39 @@
+
+.contenedor{
+    display: grid;
+    grid-template-areas:  "cabecera cabecera cabecera cabecera cabecera"
+                          "lateral-izquierdo cuerpo cuerpo cuerpo lateral-derecho"
+                          "lateral-izquierdo cuerpo cuerpo cuerpo lateral-derecho"
+                          "lateral-izquierdo cuerpo cuerpo cuerpo lateral-derecho"
+                          ". pie pie pie .";
+    height: 100vh;
+}
+
+.contenedor > div{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:  2px solid blue;
+}
+
+
+.cabecera{
+    grid-area: cabecera;
+}
+
+.lateral-izquierdo{
+    grid-area: lateral-izquierdo;
+}
+
+.lateral-derecho{
+    grid-area: lateral-derecho;
+}
+
+.cuerpo{
+    grid-area: cuerpo;
+}
+
+.pie{
+    grid-area: pie; 
+}

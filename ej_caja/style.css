@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    }
+
+.mi_caja1{
+    width: 80px;
+    border: 2px solid red;
+}
+
+.mi_caja2{
+    width: 80px;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.mi_caja3{
+    width: 80px;
+    border: 5px solid red;
+    margin: 20px;
+}
+
+.mi_caja4{
+    border: 20px solid red;
+}
+
+.mi_caja5{    
+    width: 80px;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px;
+}
