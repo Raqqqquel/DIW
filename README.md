@@ -1,2 +1,2 @@
 # DIW
-Archivos de la asignatura Desarrollo de Interfaces Web
+Ejercicios de la asignatura Desarrollo de Interfaces Web
